@@ -1,0 +1,14 @@
+.simple-dark-mode {
+    /* implement dark mode */
+    filter: invert(100%) hue-rotate(180deg);
+}
+
+.simple-dark-mode img,
+.simple-dark-mode svg,
+.simple-dark-mode picture,
+.simple-dark-mode video,
+.simple-dark-mode iframe,
+.simple-dark-mode canvas {
+    /* un-invert images */
+    filter: invert(100%) hue-rotate(180deg);
+}
